@@ -1,14 +1,14 @@
 package main
 
 import (
-	"shop_banglore/config"
+	env "shop_banglore/config"
 	"shop_banglore/database"
 
 	"github.com/gin-gonic/gin"
 )
 
 func init() {
-	config.Initialize_env_variables()
+	env.InitializeVariables()
 	database.Connect()
 }
 

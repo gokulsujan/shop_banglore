@@ -1,10 +1,10 @@
-package config
+package env
 
 import (
 	"github.com/joho/godotenv"
 )
 
-func Initialize_env_variables() {
+func InitializeVariables() {
 	err := godotenv.Load()
 	if err != nil {
 		panic("Error loading .env file")
