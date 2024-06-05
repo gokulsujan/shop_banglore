@@ -1,8 +1,8 @@
 package main
 
 import (
-	env "shop_banglore/config"
 	"shop_banglore/database"
+	"shop_banglore/env"
 
 	"github.com/gin-gonic/gin"
 )
