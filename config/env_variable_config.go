@@ -4,7 +4,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-func InitializeVariables() {
+func LoadFile() {
 	err := godotenv.Load()
 	if err != nil {
 		panic("Error loading .env file")

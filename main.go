@@ -8,7 +8,7 @@ import (
 )
 
 func init() {
-	env.InitializeVariables()
+	env.LoadFile()
 	database.Connect()
 }
 
