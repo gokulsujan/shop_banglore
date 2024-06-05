@@ -8,5 +8,5 @@ type User struct {
 	MobileNumber string `gorm: "not null"`
 	Email        string `gorm: "not null"`
 	Password     string `gorm: "not null"`
-	Status       uint   `gorm: "default:1"` // 1=> Active, 2=> Inactive, 3=> Disabled
+	Status       uint   `gorm: "default:1"` // 1=> Pending, 2=>Active, 3=> Inactive, 4=> Disabled
 }
