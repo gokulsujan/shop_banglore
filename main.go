@@ -8,6 +8,7 @@ import (
 
 func init() {
 	config.Initialize_env_variables()
+	config.ConnectToDb()
 }
 
 func main() {
